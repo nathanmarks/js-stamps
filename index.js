@@ -3,4 +3,4 @@
  * and loads up the library
  */
 require('babel.config');
-require('lib');
+module.exports = require('lib');
