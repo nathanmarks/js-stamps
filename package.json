@@ -13,7 +13,6 @@
     "dev": "nodemon -w lib -w test --exec \"npm run -s lint && npm run -s test:dev\"",
     "lint": "eslint lib",
     "prepublish": "npm run build",
-    "postinstall": "npm run build",
     "test": "babel-node test/index.js",
     "test:dev": "npm run -s test | tap-spec"
   },
